@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', :git => 'git://github.com/rails/rails.git', :branch => '3-0-stable', :ref => '857c6ee62c0582273d76e7b21b1eb295359eb837'
 gem 'mysql2', '~> 0.2.7'
 
-gem 'exception_notification', :require => 'exception_notifier'
+gem 'exception_notification', '>= 5.0.0', :require => 'exception_notifier'
 gem 'sentry-raven'
 gem 'system_timer'
 gem 'pony'
