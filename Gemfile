@@ -4,7 +4,7 @@ gem 'rails', :git => 'git://github.com/rails/rails.git', :branch => '3-0-stable'
 gem 'mysql2', '~> 0.2.7'
 
 gem 'exception_notification', :require => 'exception_notifier'
-gem 'sentry-raven'
+gem 'sentry-raven', '>= 0.14.0'
 gem 'system_timer'
 gem 'pony'
 
@@ -37,8 +37,8 @@ gem 'prawn'
 
 # social auth
 gem 'omniauth'
-gem 'omniauth-facebook'
-gem 'omniauth-google-oauth2'
+gem 'omniauth-facebook', '>= 3.0.0'
+gem 'omniauth-google-oauth2', '>= 0.2.7'
 
 group :test do
   gem 'sqlite3'
